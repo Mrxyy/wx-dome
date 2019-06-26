@@ -1,0 +1,40 @@
+/* pages/index2/index.wxss */
+.top{
+	width: 100%;
+	color: #ccc;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.top-boxs{
+	height: 400rpx;
+	background: #152;
+}
+.tou{
+	width: 200rpx;
+	height: 200rpx;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow:0 0 3rpx 6rpx #000;
+	margin-top:40rpx ;
+}
+.tou image{
+	width: 100%;
+	height: 100%;
+}
+.top:nth-of-type(n+2){
+	margin: 20rpx 0;
+}
+.top navigator{
+	font-size:14px;
+	color:#666666;
+	width: 100%;
+	border: 1px solid #CCCCCC;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align-last: justify;
+}
+.top navigator text{
+	text-indent: 20rpx;
+	display: inline-block;
+}

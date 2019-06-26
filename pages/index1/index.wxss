@@ -1,0 +1,23 @@
+/* pages/index1/index.wxss */
+page{
+	padding: 50rpx 20rpx;
+	background: #CCCCCC;
+	box-sizing: border-box;
+}
+.massage text{
+	display: block;
+	margin: 10rpx;
+}
+.massage {
+	padding:20rpx;
+	margin: 20px 0;
+}
+.massage text:nth-of-type(2){
+	font-size: 14px;
+	color:#ccc;
+	border-bottom: 1px #CCCCCC solid;
+}
+.massage image{
+	width: 100%;
+	height: 200rpx;
+}

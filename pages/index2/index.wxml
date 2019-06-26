@@ -1,0 +1,21 @@
+<!--pages/index2/index.wxml-->
+<view class="full-box">
+	 <view class="top top-boxs">
+		 <view class="tou">
+			 <image src="https://static.easyicon.net/preview/122/1225506.gif"></image>
+		 </view>
+	 </view>
+	 <view class="top">
+		 <navigator><text>个人资料</text>	></navigator>
+		 <navigator><text>我的优惠卷</text>	></navigator>
+	 </view>
+	  <view class="top">
+	 		 <navigator><text>常见问题</text>	></navigator>
+	 		 <navigator><text>使用调款</text>	></navigator>
+			  <navigator><text>常见问题</text>	></navigator>
+			 <navigator><text>使用调款</text>	></navigator>
+	 </view>
+	  <view class="top">
+	 		 <navigator><text>设置</text>	></navigator>
+	 </view>
+</view>

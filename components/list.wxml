@@ -1,0 +1,9 @@
+<template name='listShop'>
+	 <view>list.a</view>
+</template>
+<wxs module='list'>
+		module.exports = {
+			a:1
+		}
+</wxs>
+<template is='listShop'/>

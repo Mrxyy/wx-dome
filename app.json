@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+		"pages/index1/index",
+		"pages/index2/index",
+		"pages/list/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#255",
+    "navigationBarTitleText": "come on",
+    "navigationBarTextStyle":"white"
+		},
+	"tabBar":{
+		"backgroundColor":"#255",
+		"selectedColor":"red",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"text":"home",
+			"iconPath":"assets/face/4.png",
+			"selectedIconPath":"assets/face/3.png"
+		},{
+			"pagePath":"pages/index1/index",
+			"text":"set",
+			"iconPath":"assets/face/1.png",
+			"selectedIconPath":"assets/face/2.png"
+		},
+		{
+			"pagePath":"pages/index2/index",
+			"text":"selfCenter",
+			"iconPath":"assets/face/6.png",
+			"selectedIconPath":"assets/face/7.png"
+		}]
+	}
+}

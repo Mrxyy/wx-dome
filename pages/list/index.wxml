@@ -1,0 +1,4 @@
+<!--pages/list/index.wxml-->
+<import src="/components/item.wxml" />
+<template wx:for="{{info}}" wx:for-item="v" wx:key="v.id" is="listShop" data="{{...v}}"/>
+<!-- <view>正在加载···</view> -->

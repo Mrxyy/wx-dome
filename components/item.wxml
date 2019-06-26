@@ -1,0 +1,17 @@
+<template name='listShop'>
+		 <navigator>
+			 <view class="ibox">
+					<image src="{{images[0]}}" mode="aspectFill" lazy-load='{{true}}'></image>
+			 </view>
+			 <view class="font-small">
+				 <view>{{name}}</view>
+				 <view>电话：{{phone}}</view>
+				 <view>地址：{{address}}</view>
+				 <view>营业时间:{{businessHours}}</view>
+				 <view class="star">
+					<text style="width:{{score}}%">★★★★★</text>
+					<view>★★★★★</view>
+				 </view>
+			 </view>
+		 </navigator>
+</template>

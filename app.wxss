@@ -1,0 +1,16 @@
+/**app.wxss**/
+.full-box{
+	background: #CCCCCC;
+}
+view{
+	background: white;
+}
+.massage navigator:nth-of-type(1) text{
+	display: inline-block;
+}
+.massage navigator:nth-of-type(1){
+	text-align-last: justify;
+	font-size: 14px;
+	color: #CCCCCC;
+	border-top:1px solid #CCCCCC ;
+}

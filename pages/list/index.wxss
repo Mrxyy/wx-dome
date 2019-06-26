@@ -1,0 +1,34 @@
+/* pages/list/index.wxss */
+navigator{
+	display: flex;
+	position: relative;
+	line-height: 60rpx;
+	border: 1rpx #CCCCCC solid;
+	margin: 10rpx;
+	box-shadow: 0 0 1rpx 1rpx #666666;
+}
+.ibox{
+	width:30%;
+	margin-right: 5rpx;
+}
+.font-small view:nth-child(n+2){
+	font-size: 13px;
+}
+	
+navigator image{
+	width: 100%;
+	/* height: 100%;
+	align-self: center; */
+}
+.star{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.star>text{
+	position: absolute;
+	color: gold;
+	width: 80%;
+	white-space: nowrap;
+	overflow: hidden;
+}

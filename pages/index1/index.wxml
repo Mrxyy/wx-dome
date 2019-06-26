@@ -1,0 +1,24 @@
+<!--pages/index1/index.wxml-->
+<view class="full-box">
+	<view class="massage">
+		<text>标题1</text>
+		<text>2019-10-19</text>
+		<image src="https://img.alicdn.com/tfs/TB15VZ_RzTpK1RjSZKPXXa3UpXa-800-300.jpg" mode="aspectFill"></image>
+		<text>越努力，越幸运</text>
+		<navigator><text>查看详情</text>	></navigator>
+	</view>
+	<view class="massage">
+		<text>标题1</text>
+		<text>2019-10-19</text>
+		<image src="https://img.alicdn.com/tfs/TB15VZ_RzTpK1RjSZKPXXa3UpXa-800-300.jpg" mode="aspectFill"></image>
+		<text>越努力，越幸运</text>
+		<navigator><text>查看详情</text>	></navigator>
+	</view>
+	<view class="massage">
+		<text>标题1</text>
+		<text>2019-10-19</text>
+		<image src="https://img.alicdn.com/tfs/TB15VZ_RzTpK1RjSZKPXXa3UpXa-800-300.jpg" mode="aspectFill"></image>
+		<text>越努力，越幸运</text>
+		<navigator><text>查看详情</text>	></navigator>
+	</view>
+</view>

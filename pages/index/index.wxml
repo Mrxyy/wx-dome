@@ -1,0 +1,26 @@
+<view class="full-box">
+	<swiper
+  indicator-dots="true"
+  autoplay="true"
+  interval="5000"
+  duration="1000"
+	indicator-color="#ccc"
+	easing-function="linear"
+	circular="true"
+>
+    <swiper-item wx:for="{{banner_info}}"  wx:for-item="v" wx:key="id">
+			<!-- <text>{{v}}</text> -->
+      <image src="{{v.image}}" class="img" width="355" height="150" />
+    </swiper-item>
+</swiper>
+	<view class="box">
+		<navigator class="nav-item" wx:for="{{categories}}"  wx:for-item="v" wx:key="id" url="/pages/list/index?id={{v.id}}">
+			<image class="swiper-img" src="{{v.icon}}"></image>
+			<text>{{v.name}}</text>
+		</navigator>
+	</view>
+	<view class="footer">
+			<image src="https://static.easyicon.net/preview/120/1205454.gif" mode="aspectFit"></image>
+			<image src="https://static.easyicon.net/preview/120/1205488.gif" mode="aspectFit"></image>
+	</view>
+</view>
